@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Fishstick",
+    "slug": "fishstick",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A5276"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fishstick.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A5276"
+      },
+      "package": "com.fishstick.app"
+    },
+    "plugins": [
+      "expo-location",
+      "expo-camera",
+      "expo-image-picker"
+    ]
+  }
+}
